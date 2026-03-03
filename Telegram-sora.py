@@ -21,7 +21,7 @@ FREE_APIS = {
 # Получите бесплатный токен на huggingface.co (регистрация бесплатная)
 HF_TOKEN = "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"  # Замените на ваш токен
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(8664701331:AAEWigbAkkrbJC3jHP1cIO-p7tNUh_6MOIw)
 
 # Хранилище для пользователей (в реальном проекте используйте БД)
 users_db = {}
@@ -236,9 +236,9 @@ def callback_handler(call):
             f"✅ Выбран стиль: {style}\n\n"
             "✏️ **Теперь опиши видео:**\n\n"
             "Например:\n"
-            "• Космонавт играет в футбол на Марсе\n"
-            "• Кот летит на воздушном шаре\n"
-            "• Динозавр в современном городе",
+            "• мистор блинчик дрочит на фембоев\n"
+            "• выебите меня\n"
+            "• трахеите меня глубоко чтобы я стонал как последняя сука",
             call.message.chat.id,
             call.message.message_id,
             parse_mode='Markdown'
